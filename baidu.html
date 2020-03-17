@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="baidu.css">
+</head>
+<body>
+    <div id="all">
+        <h1>欢迎注册</h1>
+        <label>用户名</label>
+        <input id="username" type="text" autofocus >
+        <div id="usernamec"></div>
+        <br>
+        <!-- <div id="phonenum"></div> -->
+        <label>手机号</label>
+        <input id="phonenum" type="text" value="" onblur="checkphone(this)"/>
+        <div id="phonec"></div>
+        <br>
+        <label>密&nbsp;&nbsp;码&nbsp;</label>
+        <input id="password" type="password">
+        <div id="passwordc"></div>
+        <br>
+        <label>验证码</label>
+        <input id="checknum" type="text">
+        <input type="button" id="getcheck" value="获取验证码"/>
+        <div id="checknumc"></div>
+        <br>
+        <button id="register">注册</button>
+        <!-- <br>
+        <div id="height-validate"></div>
+        <input id="calculate" type="button" value="计算">
+        <br>
+        <label>周长：</label>
+        <input id="perimeter" type="text" disabled>
+        禁入 disabled
+        <br>
+        <label for="">面积：</label>
+        <input id="area" type="text" disabled> -->
+    </div>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="baidu.js"></script>    
+</body>
+</html>
